@@ -1,9 +1,23 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "Essia's My Website"
+  title: "Essia's Website"
   left:
     - text: "Home"
       href: index.html
     - text: "My Projects"
       href: project.html
+    - text: "My Courses"
+      menu:
+      - text: "IST 6110"
+        href: IST6110.html
+      - text: "IST 6110"
+        href: IST6620.html
+      - text: "IST 6620"
+        href: IST6620.html
+  right:
+    - text: "About" 
+      href: about.html
+    - text: "Contact"
+      href: contact.html
+        
